@@ -26,14 +26,14 @@ body{
 }
 #blog{
     padding-bottom: 100px;
-    margin-left: 280px;
+    margin-left: 400px;
 }
 #blog h2{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 40px;
     font-size: 30px;
-    padding-right: 250px; 
+    padding-right: 400px; 
 }
 #blog h3{
     padding-top: 10px;
@@ -75,4 +75,73 @@ div:nth-child(4){
     justify-content: center;
     box-shadow: rgba(149,157,165,0.2)0px 8px 24px;;
     margin: 5px;
+}
+:nth-child(4)a{
+    color: white;
+}
+div:nth-child(3){
+    display: inline-block;
+    height: 350px;
+    width: 278px;
+    border: 1px solid lightgray;
+    border-radius:10px;
+    align-items: center;
+    box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+div:nth-child(2){
+    display: inline-block;
+    height: 350px;
+    width: 278px;
+    border: 1px solid lightgray;
+    border-radius:10px;
+    align-items: center;
+    box-shadow: rgba(149,157,165,0.2)0px 8px 24px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+a{
+    padding-left: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: rgb(89, 255, 200);
+}
+#services{
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+#services h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-left: 25px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 450px;
+    margin-right: 50px;
+}
+li{
+    margin: 15px;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100px;
+    background-color: white;
+    padding: 30px;
+
+
+}
+li:nth-child(1){
+    background-color: orangered;
+}
+li:hover{
+    box-shadow: rgba(0,0,0,0.35)0px 5px 15px;
 }
